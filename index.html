@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 8 Sergio Moran</title>
+    
+    <link id="estilos" rel="stylesheet" href="./css/estilos-2.css" />
+
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <button id="cambiar-css">Cambiar estilo</button>
+        <div class="recuadro-titulo-1"></div>
+        <h1 class="header">Veni al gym <i class="em em-muscle" aria-role="presentation" aria-label="FLEXED BICEPS"
+                id="bicepsticker"></i></h1>
+        <div class="recuadro-titulo-2"></div>
+    </header>
+    <div class="container">
+        <form>
+            <div class="container-1">
+                <fieldset>
+                    <legend class="section-title"><i class="em em-man-raising-hand" aria-role="presentation"
+                            aria-label="" id="stickers"></i> Datos Personales
+                        <i class="em em-eyes" aria-role="presentation" aria-label="EYES" id="stickers"></i>
+                    </legend>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required / class="inputbarra">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="id-apellido" / class="inputbarra">
+
+                    <label for="documento">Documento:</label>
+                    <input type="text" id="id-documento" / class="inputbarra">
+
+                    <label for="nacionalidad">Nacionalidad:</label>
+                    <select id="id-nacionalidad" class="inputbarra">
+                        <option value="">- Seleccionar -</option>
+                    </select>
+                    <p>Contanos un poco de vos...</p>
+                    <input type="text" class="infoadicional">
+
+                    <label for="sexo">Sexo:</label>
+                    <div>
+                        <input type="radio" name="sexo" value="femenino" /> Femenino
+                        <input type="radio" name="sexo" value="masculino" /> Masculino
+                        <input type="radio" name="sexo" value="otro" /> Otro
+                    </div>
+            </div>
+
+            <hr class="separador">
+            <div class="container-2">
+                <fieldset>
+                    <legend class="section-title"><i class="em em-iphone" aria-role="presentation"
+                            aria-label="MOBILE PHONE" id="stickers"></i> Datos de
+                        Contacto <i class="em em-email" aria-role="presentation" aria-label="ENVELOPE"
+                            id="stickers"></i></legend>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="id-telefono" placeholder="Codigo de area y numero" / class="inputbarra">
+
+                    <label for="correo">Dirección de correo electrónico:</label>
+                    <input type="email" id="id-correo" placeholder="Ej: mail@gmail.com" / class="inputbarra">
+                </fieldset>
+            </div>
+            <hr class="separador">
+
+
+            <fieldset class="container-3">
+                <legend class="section-title"><i class="em em-woman-biking" aria-role="presentation" aria-label=""
+                        id="stickers"></i>
+                    Actividades <i class="em em-man-cartwheeling" aria-role="presentation" aria-label=""
+                        id="stickers"></i></legend>
+                <p>Por favor, indicá cuáles actividades te interesan.</p>
+
+                <p>Sede Palermo:</p>
+                <div>
+                    <input type="checkbox" id="basquet" /> Básquet
+                    <input type="checkbox" id="boxeo" /> Boxeo
+                    <input type="checkbox" id="futbol" /> Fútbol
+                    <input type="checkbox" id="tenis" /> Tenis
+                </div>
+
+                <p>Sede Rosario:</p>
+                <div>
+                    <input type="checkbox" id="rugby" /> Rugby
+                    <input type="checkbox" id="voley" /> Voley
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <div class="condiciones">
+            <div>
+                <input type="checkbox" id="condiciones" /> Acepto condiciones
+            </div>
+
+            <div>
+                <input type="checkbox" id="novedades" /> Deseo recibir novedades
+            </div>
+        </div>
+
+        <div class="afiliacion">
+            <button type="submit">Iniciar afiliación</button>
+            <button type="reset">Restablecer</button>
+        </div>
+    </footer>
+
+    
+</body>
+<script src="./javascript/app.js"></script>
+</html>

@@ -1,0 +1,183 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgba(31, 33, 33);
+    font-family: Arial, sans-serif;
+    color: rgb(30, 42, 39);
+
+}
+
+.recuadro-titulo-1 {
+    border-top: solid 15px rgba(77, 109, 99);
+    border-right: solid 15px transparent;
+    border-left: solid 15px transparent;
+    width: 54vw;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(236, 236, 238);
+}
+
+.recuadro-titulo-2 {
+    border-bottom: solid 15px rgba(77, 109, 99);
+    border-right: solid 15px transparent;
+    border-left: solid 15px transparent;
+    width: 54vw;
+    margin: auto;
+
+}
+
+
+
+.header {
+    height: 2vh;
+    background-color: #1E1E1E;
+    font-size: 2.3em;
+    font-weight: bold;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    margin-top: 3vh;
+}
+
+.container-1 {
+    width: 55vw;
+    font-size: 1.6rem;
+}
+
+.container-2 {
+    width: 55vw;
+    font-size: 1.6rem;
+}
+
+.container-3 {
+    width: 53vw;
+    font-size: 1.6rem;
+}
+
+fieldset {
+    border-radius: 3px;
+    background-color: rgb(203, 219, 216);
+    border: 2px solid rgb(32, 80, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+fieldset:hover {
+    background-color: rgb(98, 153, 132);
+}
+
+.form-2 {
+    display: flex;
+}
+
+
+.section-title {
+    background-color: rgba(44, 58, 54);
+    color: rgb(236, 236, 238);
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    border: none;
+    border-radius: 5px;
+    width: 30vw;
+    height: 3vh;
+}
+
+input[type="tel"],
+input[type="email"] {
+    direction: rtl;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+.separador {
+    border: none;
+    border-top: 10px dotted rgb(170, 188, 184);
+    color: #fff;
+    height: 1px;
+    width: 50%;
+    margin-top: 3vh;
+}
+
+footer {
+    grid-area: footer;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer .afiliacion {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.condiciones {
+    margin: auto;
+    margin-top: 2vh;
+    padding-right: 40.5vw;
+    font-size: 1.6em;
+}
+
+.afiliacion button {
+    background-color: rgba(43, 61, 55);
+    color: rgba(255, 255, 255, 0.532);
+    width: 10vw;
+    height: 6vh;
+    font-size: 1.4em;
+}
+
+.infoadicional {
+    width: 20em;
+    height: 10em;
+}
+
+button:hover {
+    background-color: rgb(54, 95, 81)
+}
+
+input:hover {
+    background-color: rgb(20, 105, 55);
+    color: rgb(245, 245, 245);
+}
+
+
+#bicepsticker {
+    width: 1em;
+}
+
+#stickers {
+    width: 1em;
+}
